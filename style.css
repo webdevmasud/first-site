@@ -1,0 +1,389 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+
+/*auto property*/
+
+
+
+header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  
+}
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+.menu li{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0px 10px;
+
+  & a{
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+
+.nav-button button{
+  /* background: #ECECEC; */
+  color: #000;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+
+  & .button1{
+    color: #000;
+    text-decoration: none;
+    padding: 4px 10px;
+  } 
+  
+}
+.nav-button .button2{
+  color: #fff;
+  background-color: #000;
+}
+
+i{
+  color: #000;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+/*Hero Banner Section*/
+
+.banner{
+  background-image: url(image/Rectangle\ 1.png);
+  width: 100%;
+  height: 91vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.container{
+  background: #fff;
+  width: 800px;
+  height: 220px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h1{
+  margin-top: 20px;
+}
+
+div .buttons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+  & .money{
+    padding: 20px;
+  }
+
+  & .selection{
+    color: #000;
+    background: #ddd;
+    padding: 4px;
+    font-size: 1em;
+    font-weight: 600;
+    width: 170px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+}
+
+.btns{
+  display: flex;
+  justify-content: space-evenly; 
+}
+div .btn1{
+  width: 520px;
+  margin-top: 15px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}div .btn2{
+  width: 170px;
+  margin-top: 15px;
+  padding: 5px;
+  border: none;
+  background: #00EBC7;
+  border: 1px solid #00EBC7;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#down-btn .bbtn{
+  color: #fff;
+  background: none;
+  margin-top: 130px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  text-decoration: underline;
+}
+
+/*All Currency list*/
+
+.buy-sell{
+  background-color: #FDE24F;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+div .images .img1{
+  width: 50px;
+  height: 50px;
+  background: #000;
+}
+.divb{
+  background: #e6d4d4;
+}
+
+/* Features */
+.features{
+  padding: 2em;
+}
+.features h3{
+  font-size: 20px;
+}
+.features .box-containner{
+  margin-top: 50px;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 17em;
+  
+
+  & h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.box-containner .fc{
+  color: #000000;
+  gap: 20px;
+  padding: 30px 1px;
+  font-size: 12px;
+}
+.features-btn button{
+  padding: 8px 15px;
+  /* margin-left: 620px; */
+  border-radius: 20px;
+  font-weight: 600;
+  border: 1px solid #000;
+}
+.features-btn .fbtn{
+  width: 150px;
+  margin-left: 45%;
+  margin-bottom: 10px;
+}
+
+
+/*Buy All Offers*/
+
+.offer-box{
+
+  height: 600px;
+  width: 100%;
+}
+
+
+.left-right{
+  display: flex;
+}
+
+.left{
+  /* background-color: #FDE24F; */
+  width: 50%;
+  height: 600px;
+
+  & h4{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-bottom: 0px;
+  }
+
+}
+.right{
+  /* background-color: #dd6161; */
+  width: 50%;
+  height: 600px;
+  
+  & h4{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 25%;
+  }
+ 
+}
+
+.boxs{
+
+  margin: 50px;
+  margin-left: 25%;
+  border: 1px solid rgb(68, 45, 15);
+  width: 450px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  border-radius: 10px;
+
+  & img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  & P{
+    margin-left: 20px;
+    margin-top: 6%;
+    text-align: center;
+    font-weight: 600;
+
+  }
+}
+
+.view-offers-btn{
+  color: #fff;
+  background-color: #000;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-left: 40%;
+}
+
+/* Sign up and buy or sell crypto */
+
+.basic-sec{
+  background-color: #CFBAFF;
+  width: 100%;
+  height: 600px;
+}
+
+.basic-div{
+  text-align: center;
+
+  &  button{
+    background-color: #000000;
+    padding: 15px 40px;
+    font-size: 1.4em;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-top: ;
+  }
+
+  & a{
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.basic-div h2{
+  font-size: 90px;
+  font-weight: 500;
+  padding: 100px;
+}
+
+
+/* Footer Section */
+
+.full-footer{
+  background-color: #000;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+
+  & h3{
+    padding: 8px;
+  }
+  & ul li{
+    list-style: none;
+    padding: 8px;
+  }
+  img {
+    margin-left: 90px;
+    margin-bottom: 230px;
+  }
+}
+
+.f-product{
+  color: #fff;
+  list-style: none;
+  font-size: 20px;
+
+  & a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.about-spacio{
+  color: #fff;
+  list-style: none;
+  font-size: 20px;
+
+  & a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.support{
+  color: #fff;
+  list-style: none;
+  font-size: 20px;
+
+  & a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+hr{
+  color: #fff;
+}
+.f-copyright{
+  background-color: #000;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+& p{
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+}
